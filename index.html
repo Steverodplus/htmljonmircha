@@ -5,11 +5,135 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Esta es la pagina con la que estoy aaprendiendo HTML">
    <title>Document</title>
+   <link rel="stylesheet" href="style/estilos.css">
 </head>
 
 <body>
 
+   <h1>Etiqueta de titulo</h1>
+   <h3>Etiquetas modificadoras del texto</h3>
+   <!-- Etiqueta de parrafo  -->
+   <p>b>negrita</b><br><i>Italica</i><br><u>Subrayado</u><br>e=mc<sup>2</sup><br><mark>resaltar
+         texto</mark><br><small>Texto pequeno</small><br>H<sub>2</sub>O
+   </p>
+   <hr>
+   <h3>Etiquetas Semanticas</h3>
+   <P>
+      <strong>genera importancia al texto</strong><br><em>hace enfasisi en el texto</em><br>
+   <blockquote>hace referencia a una cita de algun texto</blockquote><br><cite>cita el autor </cite>
+   </P>
+   <hr>
+   <h3>Etiqueta de formateo</h3>
+   <p>
+   <pre>
+         "Solo se que
+         nada se...."
+         </pre>
+   </p>
+   <hr>
+   <h3 style="color: brown;">Etiquetas de bloque Vs Etiquetas de linea</h3>
+   <div>
+      &#60;div&#62; es una etiqueta de bloque <b style="font-style: italic;">(es aquella que genera saltos de linea con
+         sus etiquetas hermanas)</b> por excelencia, es una etiqueta generica no tiene carga semantica
+   </div>
+   <span>
+      &#60;span&#62; Es la etiqueta de linea <b style="font-style: italic;">(es aquella que solo ocupa el espacio
+         necesario que tiene su contenido)</b>
+      por excelencia
+   </span>
+   <hr>
+   <h3>Estilos css en html</h3>
+   <p>
+   <pre>
+      Existen 3 formas de agregar estilo:
+         * Utilizando el atributo style directamente en la etiqueta.
+         * Agregar los estilos con la etiqueta &#60;style&#62; en la cabecera y los atributos
+         * Creando una hoja de estilos que debe estar en una carpeta de estilos.
+      </pre>
+   </p>
+   <hr>
+   <h3>IMAGENES</h3>
+   <img src="media/html5.png" alt="logo html" title="Logo html">
+   <hr>
+   <h3>ETIQUETA FIGURE</h3>
+   <figure>
+      <img src="media/tabla html.png" alt="Tabla de los elementod html">
+      <figcaption>Tabla de los elementod html</figcaption>
+   </figure>
+   <hr>
+   <h3>LISTAS</h3>
+   <H2>LISTAS ORDENADAS</H2>
+   <h4>dias de la semana </h4>
+   <ol>
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miercoles</li>
+      <li>Jueves</li>
+      <li>Viernes</li>
+   </ol>
+
+   <h4>dias de la semana enumerado con inicio en otro numero </h4>
+   <ol start="3">
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miercoles</li>
+      <li>Jueves</li>
+      <li>Viernes</li>
+   </ol>
+
+   <h4>invertir la numeracio </h4>
+   <ol reversed>
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miercoles</li>
+      <li>Jueves</li>
+      <li>Viernes</li>
+   </ol>
+
+   <h4>Cambiar el tipo de numeracio </h4>
+   <ol type="i">
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miercoles</li>
+      <li>Jueves</li>
+      <li>Viernes</li>
+   </ol>
+   <hr>
+   <h2>LISTAS DESORDENADAS (CON VINETA)</h2>
+   <ul>
+      <li>Tarea 1</li>
+      <li>Tarea 2</li>
+      <li>Tarea 3</li>
+   </ul>
+
+   <ul type="circle">
+      <li>Tarea 1</li>
+      <li>Tarea 2</li>
+      <li>Tarea 3</li>
+   </ul>
+   <ul type="square">
+      <li>Tarea 1</li>
+      <li>Tarea 2</li>
+      <li>Tarea 3</li>
+   </ul>
+   <hr>
+   <h2>LISTAS DE DEFINICION</h2>
+   <dl>
+      <dt>HTML</dt>
+      <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+      <dt>CSS</dt>
+      <dd>Es un lenguaje de definicion que da estilos al codigo HTML</dd>
+      <dt>JS</dt>
+      <dd>Es el lenguaje de la web</dd>
+   </dl>
+
+
+   <script>
+      console.log("Hola estamos aprendiendo html")
+   </script>
+   <Script src="codigo-js/codigos.js"></Script>
 </body>
 
 </html>
